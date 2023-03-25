@@ -13,8 +13,7 @@ namespace ClimaAPI.model.api
     public class WeatherServices
     {
         private static readonly string URL_BASE = "https://api.openweathermap.org/data/2.5/";
-        // your api key
-        private static readonly string APP_ID = "";
+        private static readonly string APP_ID = ""; // your api key
 
         private static readonly string IMG_URL_BASE_START = "https://openweathermap.org/img/wn/";
         private static readonly string IMG_URL_BASE_END = "@2x.png";
